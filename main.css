@@ -1,9 +1,11 @@
 * {font-family: verdana; font-size: 1em; color: #000;}
 body {background-color: #FFF; margin: 0px; padding: 0px;}
-a {color: #fff;}
+a {color: #ccc; text-decoration: none;}
+a:hover, a:active {color: #c42; background-color: #111;}
 header {background-color: #000; width: auto; display: block; padding: 20px; margin: 200px 0px 0px 0px;}
 header h1 {font-size: 2em; color: #FFF; margin: auto; width: 400px;}
-header p {font-size: .8em; color: #fff; margin: auto; width: 400px;}
+header h1 strong {color: #c42; font-size: 1.2em; margin-left: -10px;}
+header p {font-size: .8em; color: #ccc; margin: auto; width: 400px;}
 footer {background-color: #FFF; width: auto; display: block; padding: 10px;}
 footer p {font-size: .6em; color: #666; margin: auto;}
 
