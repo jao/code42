@@ -1,14 +1,19 @@
 * {font-family:verdana; font-size:1em; color:#000;}
 body {background-color:#FFF; margin:0px; padding:0px;}
-a {color:#ccc; text-decoration:none;}
+a {color:#ccc; text-decoration:underline;}
 a:hover, a:active {color:#A8B63D; background-color:#111;}
-header {background-color:#000; width:auto; display: block; padding:20px; margin:200px 0px 0px 0px;}
-header h1 {font-size:2em; color:#FFF; margin:auto; width:400px;}
-header h1 strong {color:#A8B63D; font-size:1.2em; margin-left:-10px;}
-header p {font-size:0.8em; color:#ccc; margin:auto; width:400px;}
-footer {background-color:#FFF; width:auto; display:block; padding:10px;}
-footer p {font-size:0.6em; color:#666; margin:auto;}
+
+header {display:none;}
+
+#content {background-color:#000; width:auto; display:block; padding:30px 0 40px 0; margin:200px 0px 100px 0px;}
+#content h1 {font-size:2em; color:#FFF; margin:auto; width:400px;}
+#content h1 em {color:#A8B63D; font-size:1.2em; margin-left:-10px; font-style:normal; text-decoration:none;}
+#content p {font-size:0.8em; color:#ccc; margin:auto; width:400px;}
+#content p.contact {text-align:right;}
+
+footer {background-color:#FFF; width:90%; display:block; padding:10px; position:absolute; bottom:0;}
+footer p {font-size:0.6em; color:#666; text-align:center;}
 
 #pageflip {position: relative; visibility: hidden;}
-#pageflip img {width:50px; height:52px; z-index:99; position: absolute; right:0; top:0;}
+#pageflip img {width:50px; height:52px; z-index:99; position:absolute; right:0; top:0;}
 #pageflip .message {width:50px; height:50px; position:absolute; z-index:50; right:0; top:0; background:url(../images/subscribe.png) no-repeat right top; text-indent:-9999px;}
