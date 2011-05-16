@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  File.read "index.html"
+  erb :layout
 end
